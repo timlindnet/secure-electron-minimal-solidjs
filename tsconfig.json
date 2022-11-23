@@ -12,7 +12,8 @@
             "ESNext",
             "dom"
         ],
-        "jsx": "react",
+        "jsx": "preserve",
+        "jsxImportSource": "solid-js",
         "noEmit": true,
         "sourceMap": true,
         /* Strict Type-Checking Options */

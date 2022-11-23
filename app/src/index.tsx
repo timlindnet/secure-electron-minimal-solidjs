@@ -1,11 +1,8 @@
-import React, { Suspense } from "react";
-import { createRoot } from "react-dom/client";
 import App from "Core/app";
+import { render } from "solid-js/web";
 
-const container = document.getElementById("target");
-const root = createRoot(container as Element);
-root.render(
-  <Suspense fallback="loading">
-    <App />
-  </Suspense>
-);
+function Index() {
+  return <App />;
+}
+
+render(() => <Index />, document.getElementById("target") as Element);

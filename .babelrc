@@ -16,7 +16,7 @@
     ],
     "presets": [
         "@babel/preset-env",
-        "@babel/preset-react",
+        "solid",
         "@babel/preset-typescript"
     ]
 }
