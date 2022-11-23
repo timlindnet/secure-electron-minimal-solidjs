@@ -15,10 +15,7 @@ const {
   Menu,
   BrowserWindowConstructorOptions,
 } = require("electron");
-const {
-  default: installExtension,
-  REACT_DEVELOPER_TOOLS,
-} = require("electron-devtools-installer");
+const { default: installExtension } = require("electron-devtools-installer");
 const Protocol = require("./protocol");
 const path = require("path");
 // const fs = require("fs");
