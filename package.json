@@ -48,7 +48,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/timlindnet/secure-electron-minimal-react.git"
+    "url": "git+https://github.com/timlindnet/secure-electron-minimal-solidjs.git"
   },
   "keywords": [
     "electron",
@@ -56,16 +56,16 @@
     "secure",
     "template",
     "javascript",
-    "react",
+    "solidjs",
     "webpack",
     "boilerplate"
   ],
   "author": "timlindnet",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/timlindnet/secure-electron-minimal-react/issues"
+    "url": "https://github.com/timlindnet/secure-electron-minimal-solidjs/issues"
   },
-  "homepage": "https://github.com/timlindnet/secure-electron-minimal-react#readme",
+  "homepage": "https://github.com/timlindnet/secure-electron-minimal-solidjs#readme",
   "browserslist": [
     "last 2 Chrome versions"
   ],
